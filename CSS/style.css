@@ -4,16 +4,107 @@
 
 /* clases de fondos */
 .bg-deeppink{
-    background-color: #24b354;
+    background: linear-gradient(180deg, rgba(36,179,84,1) 0%, rgba(19,120,19,1) 100%);
     color: white;
 
 }
 
 .bg-violet{
-    background-color: #24b354;
+    background: linear-gradient(to top, #24b354, Green);
 }
 
 #redes img{
     width: 30px;
 }
+
+/*fondos colores*/
+.bg-dark{
+	background-color: #262525
+}
+
+.bg-danger{
+	background-color: #C11111
+}
+
+.bg-info{
+	background-color: #0065c3
+}
+
+.bg-success{
+	background-color: #12E73F
+}
+
+.bg-warning{
+	background-color: #E76424
+}
+
+/*end fondos */
+
+
+/* clases para los temas de hoy*/
+
+
+.transform:hover{
+	
+}
+
+.rotate:hover{
+	
+}
+
+.scale{
+	transform: scaleY(2.2px);
+    cursor: pointer;
+    transition: transform 1s;
+}
+
+.skew{
+	
+}
+
+@keyframes animateDiv{
+	
+}
+
+.animate{
+	
+}
+
+
+.transition{
+	
+}
+
+.transition:hover{
+	
+}
+
+@keyframes textAlpha{
+	
+}
+
+
+h3{
+	
+}
+
+button{
+	width: 150px;
+    height: 25px;
+    background: linear-gradient(to top, white, rgb(214, 214, 214));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    border:none;
+    border-radius: 4px;
+}
+
+button:hover{
+	background: #f2924e;
+    cursor: pointer;
+    transition: instant;
+
+}
+
 
